@@ -301,7 +301,7 @@ body {
 	box-sizing: border-box;
 	border-radius: 12px;
 	background-color: #fff;
-	background-image: radial-gradient( #b70707, #10% );
+	background-image: radial-gradient( #b70707, 10% );
 
 	animation-name: col;
 	animation-duration: 0s;
