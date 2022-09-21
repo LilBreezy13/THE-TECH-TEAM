@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Varela Round', sans-serif;
-	background-color: #FFF9CA;
+	background-color: #FDFAF6;
 
 }
 
@@ -20,6 +20,7 @@ body {
 	padding-right: 16px;
 	border-bottom: 1px solid #dfe3e8;
 	border-radius: 0;
+	border-bottom: 4px solid transparent;
 }
 
 .nav-link img {
@@ -48,6 +49,10 @@ body {
 .navbar a {
 	color: #888;
 	font-size: 15px;
+}
+
+.navbar a:hover{
+	border-bottom: 4px solid blue;
 }
 
 .search-box {
@@ -238,12 +243,20 @@ body {
 
 /* NAVBAR CLASS  */
 .bar {
-	background-color: #FCF8E8 !important;
+	background-color: #F7ECDE !important;
 	/* z-index: 1;*/
 }
 
 
 /* HERO */
+
+
+
+
+
+
+
+
 
 .container-fluid {
 	width: 100%;
@@ -259,7 +272,7 @@ body {
 	height: 600%;
 	background-color: #0096FF;
 	box-sizing: border-box;
-	background-image: repeating-radial-gradient(farthest-corner at 100px 100px, rgb(38, 16, 180) 9%, rgb(238, 238, 221) 60%);
+	background-image: repeating-radial-gradient(farthest-corner at 100px 100px, rgb(38, 16, 180) 40%, rgb(238, 238, 221) 60%);
 }
 
 .hero-text {
@@ -292,7 +305,7 @@ body {
 
 }
 
-.col-8 {
+/* .col-8 { 
 	padding-top: 3%;
 	padding-bottom: 3%;
 	margin-left: 3%;
@@ -301,7 +314,7 @@ body {
 	box-sizing: border-box;
 	border-radius: 12px;
 	background-color: #fff;
-	background-image: radial-gradient( #b70707, 10% );
+	background-image: radial-gradient(#b70707, 10%);
 
 	animation-name: col;
 	animation-duration: 0s;
@@ -310,37 +323,162 @@ body {
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 	animation-fill-mode: none;
-}
+}*/
 
-@keyframes col {
+/* @keyframes col { */
 
-	0% {}
-
-
-
-	25% {
-
-	}
+/* 0% {} */
 
 
 
-	50% {}
-
-
-	75% {}
-	
-
-	100% {}
+/* 25% {} */
 
 
 
-}
+/* 50% {} */
 
-.col-4 {
+
+/* 75% {} */
+
+
+/* 100% {} */
+
+
+
+
+
+/* .col-4 { 
 	padding: 7%;
 	margin: 2%;
 	color: goldenrod;
+}*/
+
+
+
+/* FLOAT CHAT BUTTON  */
+
+
+/* body { */
+/* background-color: #eee */
+/* } */
+
+.chat-btn {
+	position: absolute;
+	right: 14px;
+	bottom: 60px;
+	cursor: pointer;
+	animation-name: chat;
+	animation-duration: 8s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+
 }
+
+@keyframes chat {
+	0% {
+		background-color: blue;
+		bottom: 20%;
+	}
+
+	25% {
+		background-color: rgb(236, 25, 25);
+		bottom: 40px;
+	}
+
+}
+
+.chat-btn .close {
+	display: none
+}
+
+.chat-btn i {
+	transition: all 0.9s ease
+}
+
+#check:checked~.chat-btn i {
+	display: block;
+	pointer-events: auto;
+	transform: rotate(180deg)
+}
+
+#check:checked~.chat-btn .comment {
+	display: none
+}
+
+.chat-btn i {
+	font-size: 22px;
+	color: #fff !important
+}
+
+.chat-btn {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	background-color: blue;
+	color: #fff;
+	font-size: 22px;
+	border: none
+}
+
+.wrapper {
+	position: absolute;
+	right: 20px;
+	bottom: 100px;
+	width: 300px;
+	background-color: #fff;
+	border-radius: 5px;
+	opacity: 0;
+	transition: all 0.4s
+}
+
+#check:checked~.wrapper {
+	opacity: 1
+}
+
+.header {
+	padding: 13px;
+	background-color: blue;
+	border-radius: 5px 5px 0px 0px;
+	margin-bottom: 10px;
+	color: #fff
+}
+
+.chat-form {
+	padding: 15px
+}
+
+.chat-form input,
+textarea,
+button {
+	margin-bottom: 10px
+}
+
+.chat-form textarea {
+	resize: none
+}
+
+.form-control:focus,
+.btn:focus {
+	box-shadow: none
+}
+
+.btn,
+.btn:focus,
+.btn:hover {
+	background-color: blue;
+	border: blue
+}
+
+#check {
+	display: none !important
+}
+
+
+
 
 
 
@@ -525,8 +663,191 @@ h2::after {
 }
 
 
+
+/* SERVICES  */
+/* .services{ */
+/* margin: 1px !important; */
+/* padding: 1px; */
+/* } */
+
+
+
+.service-headline {
+	display: flex;
+	justify-content: center;
+	padding-top: 5%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: larger;
+	border-bottom: #3120E0;
+	border: #0096FF;
+	color: #3120E0;
+	
+}
+
+.serv-text {
+	display: flex;
+	justify-content: center;
+}
+
+/* .service-items{ 
+	display: flex;
+	justify-content: space-around;
+	align-items: unset;
+	padding: 5%;
+	al
+}*/
+
+
+.nba-bank {
+	margin: 5%;
+	padding-bottom: 3%;
+	color: blue;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.Paypal {
+	margin: 5%;
+	padding-bottom: 2%;
+	color: blue;
+}
+
+
+p{
+	color: #000;
+}
+
+.paypal {
+	margin: 5%;
+	padding-bottom: 2%;
+	float: left;
+	color: blue;
+}
+
+
+.Gcb-bank {
+	margin: 5%;
+	padding-bottom: 2%;
+	color: blue;
+}
+
+
+
+.service-items-1{
+	display: flex;
+	justify-content: flex-end;
+
+
+}
+
+
+/* CARDS  */
+
+.cards-list {
+	z-index: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-bottom: 3%;
+	padding-top: 3%;
+  }
+  
+  .card {
+	margin: 30px auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+	cursor: pointer;
+	transition: 0.4s;
+  }
+  
+  .card .card_image {
+	width: inherit;
+	height: inherit;
+	border-radius: 40px;
+  }
+  
+  .card .card_image img {
+	width: inherit;
+	height: inherit;
+	border-radius: 40px;
+	object-fit: cover;
+  }
+  
+  .card .card_title {
+	text-align: center;
+	border-radius: 0px 0px 40px 40px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: -80px;
+	height: 40px;
+  }
+  
+  .card:hover {
+	transform: scale(0.9, 0.9);
+	box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+	  -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .title-white {
+	color: white;
+  }
+  
+  .title-black {
+	color: black;
+  }
+  
+  @media all and (max-width: 500px) {
+	.card-list {
+	  /* On small screens, we are no longer using row direction but column */
+	  flex-direction: column;
+	}
+  }
+  
+  
+  /*
+  .card {
+	margin: 30px auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 40px;
+	background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+	transition: 0.4s;
+  }
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER  */
+
+
+
 .footer {
-	background-color: #FCF8E8 !important;
+	background-color: #EFF8FF !important;
 }
 
 .footer-logo {
