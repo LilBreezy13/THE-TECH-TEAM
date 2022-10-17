@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Italianno&family=Poppins:ital,wght@1,900&display=swap');
+
+
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    /* background-color: #ADDDD0 !important; */
+
+}
+
+.form-control {
+    box-shadow: none;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.navbar {
+    background: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid #dfe3e8;
+    border-radius: 0;
+    border-bottom: 4px solid transparent;
+}
+
+.nav-link img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: -8px 0;
+    float: left;
+    margin-right: 10px;
+}
+
+.navbar .navbar-brand {
+    padding-left: 0;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.navbar .navbar-brand b {
+    color: #33cabb;
+}
+
+.navbar .form-inline {
+    display: inline-block;
+}
+
+.navbar a {
+    color: #888;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    border-bottom: 4px solid blue;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding-right: 35px;
+    border-color: #dfe3e8;
+    border-radius: 4px !important;
+    box-shadow: none
+}
+
+.search-box .input-group-text {
+    min-width: 35px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    padding: 7px;
+    height: 100%;
+}
+
+.search-box i {
+    color: #a0a5b1;
+    font-size: 19px;
+}
+
+.navbar .sign-up-btn {
+    min-width: 110px;
+    max-height: 36px;
+}
+
+.navbar .dropdown-menu {
+    color: #999;
+    font-weight: normal;
+    border-radius: 1px;
+    border-color: #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+}
+
+.navbar a,
+.navbar a:active {
+    color: #888;
+    padding: 8px 20px;
+    background: transparent;
+    line-height: normal;
+}
+
+.navbar .navbar-form {
+    border: none;
+}
+
+.navbar .action-form {
+    width: 280px;
+    padding: 20px;
+    left: auto;
+    right: 0;
+    font-size: 14px;
+}
+
+.navbar .action-form a {
+    color: #3120E0;
+    padding: 0 !important;
+    font-size: 14px;
+}
+
+.navbar .action-form .hint-text {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.navbar .btn-primary,
+.navbar .btn-primary:active {
+    color: #fff;
+    background: #3120E0 !important;
+    border: none;
+}
+
+.navbar .btn-primary:hover,
+.navbar .btn-primary:focus {
+    color: #fff;
+    background: #3120E0 !important;
+}
+
+.navbar .social-btn .btn,
+.navbar .social-btn .btn:hover {
+    color: #fff;
+    margin: 0;
+    padding: 0 !important;
+    font-size: 13px;
+    border: none;
+    transition: all 0.4s;
+    text-align: center;
+    line-height: 34px;
+    width: 47%;
+    text-decoration: none;
+}
+
+.navbar .social-btn .facebook-btn {
+    background: #507cc0;
+}
+
+.navbar .social-btn .facebook-btn:hover {
+    background: #4676bd;
+}
+
+.navbar .social-btn .twitter-btn {
+    background: #64ccf1;
+}
+
+.navbar .social-btn .twitter-btn:hover {
+    background: #4ec7ef;
+}
+
+.navbar .social-btn .btn i {
+    margin-right: 5px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+
+.or-seperator {
+    margin-top: 32px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.or-seperator b {
+    color: #666;
+    padding: 0 8px;
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 26px;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+    z-index: 1;
+}
+
+.navbar .action-buttons .dropdown-toggle::after {
+    display: none;
+}
+
+.form-check-label input {
+    position: relative;
+    top: 1px;
+}
+
+@media (min-width: 1200px) {
+    .form-inline .input-group {
+        width: 300px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .dropdown-menu.action-form {
+        width: 100%;
+        padding: 10px 15px;
+        background: transparent;
+        border: none;
+    }
+
+    .navbar .form-inline {
+        display: block;
+    }
+
+    .navbar .input-group {
+        width: 100%;
+    }
+}
+
+
+/* NAVBAR LOGO  */
+.logo {
+    width: 35%;
+    height: 35%;
+
+}
+
+/* NAVBAR CLASS  */
+.bar {
+    background-color: #fff !important;
+    /* z-index: 1;*/
+}
+
+
+
+/* NAVBAR MORE  */
+
+.cart {
+    margin-left: 2%;
+}
+
+.bi-cart4 {
+    color: #3120E0;
+}
+
+.profile {}
+
+.bi-person-fill {
+    color: #3120E0;
+}
+
+
+/* NAVBAR ENDS CSS  */
+
+
+
+/* CONTENT  */
+.content {}
+
+.profile-page {
+    /* border-radius: 20%; */
+    background-color: #4b40be !important;
+    color: #fff !important;
+}
+
+.profile-text {
+    margin-left: 4%;
+    /* padding: 5%; */
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.balance {
+    background-color: #fff;
+    color: #000;
+    margin-left: 4%;
+    /* padding-bottom: 5%; */
+    margin-bottom: 2%;
+    /* border: #3120E0; */
+    display: flex;
+    align-items: flex-start;
+}
+
+.h6 {
+    padding-left: 2px;
+    padding-bottom: 1px;
+    margin-bottom: 2px;
+    font-family: cursive;
+    color: #3120E0;
+    font-size: larger;
+    /* text-align: center; */
+}
+
+.bi-credit-card-fill {
+    color: #3120E0;
+}
+
+.tcb {
+    font-family: monospace;
+    margin: 2%;
+    margin-left: 4%;
+    background-color: #EEEEEE;
+    padding: 1px;
+    /* border: #999; */
+}
+
+
+.pro {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.pro-1 {}
+
+.pro-img {
+    width: 40%;
+    height: 80%;
+    margin-left: 3%;
+    margin-top: 5%;
+    /* padding: 5%; */
+
+}
+
+fieldset{
+    margin: 1%;
+    padding: 1%;
+    width: 98%;
+    height: 70%;
+    color: #000;
+    border: solid blue;
+    display: flex;
+    /* justify-content: space-evenly */
+    align-items: center;
+}
+
+
+.pro2-ul{
+list-style-type: none;
+}
+
+
+span{
+    font-weight: bold;
+}
+
+
+
+button{
+    display: flex;
+    padding-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 12%;
+    background-color: #3120E0;
+    color: #fff;
+    border: #3120E0 solid;
+    text-align: center;
+    
+
+}
+
+button:hover{
+    color: #fff;
+    /* transition: ease-in-out; */
+}
+
+
+
+/* FOOTER BEGINS CSS */
+
+
+.footer {
+    background-color:#fff !important;
+}
+
+.footer-logo {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: monospace;
+}
+
+
+.bi-facebook {
+    color: #3120E0;
+}
+
+.bi-instagram {
+    color: #3120E0;
+}
+
+.bi-twitter {
+    color: #3120E0;
+}
+
+.bi-youtube {
+    color: #3120E0;
+}
+
+
+.bi-snapchat {
+    color: #3120E0;
+}
+
+.bi-tiktok {
+    color: #3120E0;
+}
+
+.bi-telephone {
+    color: #3120E0;
+}
+
+.bi-envelope-fill {
+    color: #3120E0;
+
+}
+
+.bi-house-door-fill {
+    color: #3120E0;
+}

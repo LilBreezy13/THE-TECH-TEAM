@@ -1,6 +1,6 @@
 body {
 	font-family: 'Varela Round', sans-serif;
-	background-color: #F9F2ED;
+	background-color: #fbe9cd;
 	
 }
 
@@ -225,6 +225,8 @@ body {
 }
 
 
+
+
 /* NAVBAR LOGO  */
 .logo {
 	width: 35%;
@@ -234,11 +236,29 @@ body {
 
 /* NAVBAR CLASS  */
 .bar {
-	background-color: #E8F9FD !important;
+	background-color: #fff !important;
 	/* z-index: 1;*/
 }
 
 
+
+/* NAVBAR MORE  */
+
+.cart{
+	margin-left: 2%;
+}
+
+.bi-cart4{
+	color: #3120E0;
+}
+
+.profile{
+
+}
+
+.bi-person-fill{
+	color: #3120E0;
+}
 
 
 /* BEGINS  */
@@ -6811,11 +6831,13 @@ body {
 
 
 .footer {
-	background-color: #EFF8FF !important;
+	background-color: #fff !important;
 }
 
 .footer-logo {
-	width: 100%;
+	
+
+	width: 60%;
 	height: 80%;
 	display: flex;
 	justify-content: flex-start;
@@ -6825,4 +6847,43 @@ body {
 .footer-text {
 	text-align: center;
 	font-family: monospace;
+}
+
+
+.bi-facebook {
+	color: #3120E0;
+}
+
+.bi-instagram {
+	color: #3120E0;
+}
+
+.bi-twitter {
+	color: #3120E0;
+}
+
+.bi-youtube {
+	color: #3120E0;
+}
+
+
+.bi-snapchat {
+	color: #3120E0;
+}
+
+.bi-tiktok {
+	color: #3120E0;
+}
+
+.bi-telephone{
+	color: #3120E0;
+}
+
+.bi-envelope-fill{
+	color: #3120E0;
+
+}
+
+.bi-house-door-fill{
+	color: #3120E0;
 }

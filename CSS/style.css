@@ -8,6 +8,15 @@ body {
 
 }
 
+
+.nav-logo {
+	font-size: 150%;
+	font-family: fantasy;
+	color: red;
+
+
+}
+
 .form-control {
 	box-shadow: none;
 	font-weight: normal;
@@ -51,7 +60,7 @@ body {
 	font-size: 15px;
 }
 
-.navbar a:hover{
+.navbar a:hover {
 	border-bottom: 4px solid blue;
 }
 
@@ -236,14 +245,15 @@ body {
 
 /* NAVBAR LOGO  */
 .logo {
-	width: 35%;
-	height: 35%;
+	width: 60%;
+	height: 65%;
+	color: red;
 
 }
 
 /* NAVBAR CLASS  */
 .bar {
-	background-color: #F7ECDE !important;
+	background-color: #fff !important;
 	/* z-index: 1;*/
 }
 
@@ -671,6 +681,19 @@ h2::after {
 /* } */
 
 
+.payment-plan {
+
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 900;
+	font: size 8em;
+	background-image: url(https://media.giphy.com/media/9MJ65OWvrNIXnOiNEk/giphy-downsized-large.gif);
+	background-size: cover;
+	background-clip: text;
+	color: transparent;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
 
 .service-headline {
 	display: flex;
@@ -681,7 +704,7 @@ h2::after {
 	border-bottom: #3120E0;
 	border: #0096FF;
 	color: #3120E0;
-	
+
 }
 
 .serv-text {
@@ -713,7 +736,7 @@ h2::after {
 }
 
 
-p{
+p {
 	color: #000;
 }
 
@@ -733,7 +756,7 @@ p{
 
 
 
-.service-items-1{
+.service-items-1 {
 	display: flex;
 	justify-content: flex-end;
 
@@ -751,32 +774,32 @@ p{
 	flex-wrap: wrap;
 	padding-bottom: 3%;
 	padding-top: 3%;
-  }
-  
-  .card {
+}
+
+.card {
 	margin: 30px auto;
 	width: 300px;
 	height: 300px;
 	border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
 	cursor: pointer;
 	transition: 0.4s;
-  }
-  
-  .card .card_image {
+}
+
+.card .card_image {
 	width: inherit;
 	height: inherit;
 	border-radius: 40px;
-  }
-  
-  .card .card_image img {
+}
+
+.card .card_image img {
 	width: inherit;
 	height: inherit;
 	border-radius: 40px;
 	object-fit: cover;
-  }
-  
-  .card .card_title {
+}
+
+.card .card_title {
 	text-align: center;
 	border-radius: 0px 0px 40px 40px;
 	font-family: sans-serif;
@@ -784,31 +807,31 @@ p{
 	font-size: 30px;
 	margin-top: -80px;
 	height: 40px;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
 	transform: scale(0.9, 0.9);
-	box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-	  -5px -5px 30px 15px rgba(0,0,0,0.22);
-  }
-  
-  .title-white {
+	box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+		-5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
 	color: white;
-  }
-  
-  .title-black {
+}
+
+.title-black {
 	color: black;
-  }
-  
-  @media all and (max-width: 500px) {
+}
+
+@media all and (max-width: 500px) {
 	.card-list {
-	  /* On small screens, we are no longer using row direction but column */
-	  flex-direction: column;
+		/* On small screens, we are no longer using row direction but column */
+		flex-direction: column;
 	}
-  }
-  
-  
-  /*
+}
+
+
+/*
   .card {
 	margin: 30px auto;
 	width: 300px;
@@ -838,20 +861,32 @@ p{
 
 
 
+/* NAVBAR MORE  */
 
+.cart {
+	margin-left: 2%;
+}
 
+.bi-cart4 {
+	color: #3120E0;
+}
 
+.profile {}
+
+.bi-person-fill {
+	color: #3120E0;
+}
 
 /* FOOTER  */
 
 
 
 .footer {
-	background-color: #EFF8FF !important;
+	background-color: #fff !important;
 }
 
 .footer-logo {
-	width: 100%;
+	width: 60%;
 	height: 80%;
 	display: flex;
 	justify-content: flex-start;
@@ -861,4 +896,42 @@ p{
 .footer-text {
 	text-align: center;
 	font-family: monospace;
+}
+
+.bi-facebook {
+	color: #3120E0;
+}
+
+.bi-instagram {
+	color: #3120E0;
+}
+
+.bi-twitter {
+	color: #3120E0;
+}
+
+.bi-youtube {
+	color: #3120E0;
+}
+
+
+.bi-snapchat {
+	color: #3120E0;
+}
+
+.bi-tiktok {
+	color: #3120E0;
+}
+
+.bi-telephone {
+	color: #3120E0;
+}
+
+.bi-envelope-fill {
+	color: #3120E0;
+
+}
+
+.bi-house-door-fill {
+	color: #3120E0;
 }
